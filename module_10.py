@@ -1,9 +1,9 @@
-"""Self-Checkout Program"""
+"""This is the tenth exercise"""
 #!/usr/bin/env python3
 
 
 def main():
-    """Self-Checkout Module"""
+    """This module acts as a simple self-checkout system"""
     item_one = int(input("Enter the price of item 1: "))
     quantity_one = int(input("Enter the quantity of item 1: "))
     item_two = int(input("Enter the price of item 2: "))

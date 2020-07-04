@@ -1,4 +1,4 @@
-"""This program determines compound interest"""
+"""This is the thirteenth exercise"""
 #!/usr/bin/env python3
 
 
@@ -11,7 +11,8 @@ def main():
     interest = rate / 100
     total_value = principle * (1 + interest / times) ** (times * years)
     rounded_value = round(total_value, 2)
-    print('{}$ is invested at {}%, for {} years componded {} times per year is ${}.'.format(principle, rate, years, times, rounded_value))
+    print('{}$ is invested at {}%, for {} years componded {} times per year is ${}.'\
+            .format(principle, rate, years, times, rounded_value))
 
 if __name__ == '__main__':
     main()

@@ -1,11 +1,14 @@
-"""This is a mad lib program"""
+"""This is the fourth exercise"""
 #!/usr/bin/env python3
 
 
 def main():
-    """This is a mad lib module"""
+    """This module does a mad lib"""
     noun = str(input("Enter a noun: "))
     verb = str(input("Enter a verb: "))
     adjective = str(input("Enter a adjective: "))
     adverb = str(input("Enter a adverb: "))
-    print("Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? Thats dank.")
+    print("Do you {} your {} {} {}? Thats dank.".format(verb, adjective, noun, adverb))
+
+if __name__ == '__main__':
+    main()

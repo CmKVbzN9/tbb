@@ -1,9 +1,9 @@
-"""This program computes simple interest"""
+"""This is the twelth exercise"""
 #!/usr/bin/env python3
 
 
 def main():
-    """This module computes the interest that is simple"""
+    """This module computes simple interest"""
     principle = int(input("Enter the principal: "))
     rate = float(input("Enter the rate of interest: "))
     years = int(input("Enter the number of years: "))

@@ -1,4 +1,4 @@
-"""This program calculates tax"""
+"""This is the fourteenth exercise"""
 #!/usr/bin/env python3
 
 

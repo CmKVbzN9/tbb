@@ -1,9 +1,9 @@
-"""This is a program that does simple math"""
+"""This is the fifth exercise"""
 #!/usr/bin/env python3
 
 
 def main():
-    """This is the math module"""
+    """This module does simple math"""
     first_number = int(input("What is the first number? "))
     second_number = int(input("What is the second number? "))
     print("{} + {}".format(first_number, second_number), " = ", first_number+second_number)
